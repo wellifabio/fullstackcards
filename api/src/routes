@@ -8,6 +8,6 @@ router.get('/produtos/:id', Produto.read);
 router.put('/produtos', Produto.update);
 router.delete('/produtos/:id', Produto.del);
 
-router.get('/', (req, res) => { return res.json("API OSs respondendo") });
+router.get('/', (req, res) => { return res.json("API Produtos Cards respondendo") });
 
 module.exports = router;
