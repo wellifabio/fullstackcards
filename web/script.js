@@ -15,11 +15,15 @@ function listarProdutos() {
                     <div class="card-body">
                         <p class="card-text text-center">${produto.descricao}</p>
                         <p class="card-text text-center">R$ ${produto.preco}</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
+                    <button class="btn btn-primary" onclick="comprar(${produto.id})">Comprar</button>
                 </div>
                 `;
             });
             prods.innerHTML += output;
         });
+}
+
+function comprar(id) {
+    alert(`Produto ${id} comprado com sucesso!`);
 }

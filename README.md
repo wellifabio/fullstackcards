@@ -30,3 +30,4 @@ node server.js
 npx nodemon
 ```
 8. Abra a pasta **./web** e execute o arquivo `index.html` no navegador ou via live server do VsCode.
+![Print](./mediafiles/print.png)
