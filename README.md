@@ -1,4 +1,4 @@
-# Listar Cards
+# Listar Cards Produtos
 Exemplo de aplicativo web full stack, com dados a partir de uma API prisma, e um script para listar todos os cards cadastrados.
 
 ## Requisitos
